@@ -54,6 +54,7 @@ export default function RootLayout() {
         <ItineraryProvider>
           <AuthProtection>
             <Stack screenOptions={{ headerShown: false }}>
+              <Stack.Screen name="preview" options={{ headerShown: false }} />
               <Stack.Screen name="login" options={{ headerShown: false }} />
               <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
               <Stack.Screen name="+not-found" />
